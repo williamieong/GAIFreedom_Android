@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
 
@@ -8,6 +9,15 @@ android {
         applicationId "trishita.freedomhouseandroid"
         minSdkVersion 15
         targetSdkVersion 23
+=======
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "gai.freedomhouse"
+        minSdkVersion 15
+        targetSdkVersion 22
+>>>>>>> 3f8a5a652a9c65d5dd684e1def01b6196a7053ad
         versionCode 1
         versionName "1.0"
     }
@@ -22,4 +32,8 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.1.0'
+<<<<<<< HEAD
+=======
+    compile 'com.google.android.gms:play-services:8.1.0'
+>>>>>>> 3f8a5a652a9c65d5dd684e1def01b6196a7053ad
 }

@@ -1,7 +1,11 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">FreedomHouseAndroid</string>
 
     <string name="action_settings">Settings</string>
     <string name="emailField">Enter your email</string>
     <string name="password">Enter your password</string>
+=======
+    <string name="app_name">FreedomHouse</string>
+>>>>>>> 3f8a5a652a9c65d5dd684e1def01b6196a7053ad
 </resources>
